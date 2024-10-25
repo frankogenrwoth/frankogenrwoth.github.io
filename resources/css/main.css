@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(221, 221, 222);
+    padding: 0px;
+    position: relative;
+}
+
+button {
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    padding: 6px 18px;
+    cursor: pointer;
+}
+
+marquee {
+    display: flex;
+}
+
+
+.hero-section {
+    padding-bottom: 100px;
+    background-color: transparent;
+    margin: -8px;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+}
+
+.hero-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-left {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.col {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col h1 {
+    width: 50%;
+    text-align: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    position: relative;
+}
+
+.image-container {
+    background-image: url('../images/profile.webp');
+    width: 72px;
+    height: 72px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+
+    outline: 3px solid rgba(38, 38, 222, .2);
+    outline-offset: 3px;
+
+    position: relative;
+
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn-black i {
+    color: white;
+}
+
+
+
+.image-container-label {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    background-color: white;
+    text-wrap: nowrap;
+    border-radius: 12px;
+    padding: 4px 8px;
+    transform: rotate(-15deg);
+    outline-offset: 3px;
+    outline: 3px solid rgba(38, 38, 222, .2);
+
+}
+
+
+.languages-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    background-color: white;
+    margin: 0px -8px;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+}
+
+.kvp-section {
+    background-color: transparent;
+    margin: -8px;
+    padding: 20px;
+    border-radius: -24px;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kvp-section h2 {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.division {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.line {
+    background-color: rgba(181, 181, 181, 0.281);
+    flex: 1;
+    height: 2px;
+}
+.divider {
+    background-color: white;
+    padding: 6px 18px;
+    border-radius: 16px;
+    transform: rotate(-10deg);
+}
+
+.services-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.connect-section {
+    padding: 46px;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    background-color: white;
+    margin: 0px -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect-section h2 {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -8px;
+}
+
+.spliter {
+    flex: 1;
+    height: 5px;
+    width: 200px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 24px 44px;
+}
